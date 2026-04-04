@@ -97,8 +97,21 @@ tags: [tag1, tag2]
 1. 每次编译后必须更新 `wiki/_index.md` 和 `raw/_registry.md`
 2. 所有 wiki 条目之间使用 `[[wikilinks]]` 互相链接
 3. 新概念必须检查是否已有相关条目，避免重复
-4. `_changelog.md` 记录每次编译的变化摘要
+4. `_changelog.md` 记录每次编译的变化摘要，格式: `## [YYYY-MM-DD] operation | Subject`
 5. 图片资源放在 `media/images/`，用相对路径引用
+
+## Wiki 分类策略
+
+Wiki 有 6 个子目录：concepts/、topics/、guides/、comparisons/、timelines/、glossary/。在知识库规模较小时（<50 个条目），遵循以下简化策略：
+
+- **默认使用 `concepts/`**：除非内容明显属于其他类别，所有条目都放在 concepts/
+- **只在明确场景使用其他类别**：
+  - `comparisons/` — 仅当内容核心是两个概念的对比
+  - `guides/` — 仅当内容是步骤式操作指南
+  - `topics/` — 仅当一个主题已积累 3 个以上相关 concepts/ 条目时，才值得创建独立的 topic 综述
+  - `timelines/` — 仅当时间维度是核心组织逻辑
+  - `glossary/` — 由 /lint 自动维护
+- **索引更新原则**：只更新有变化的分类索引（如只新增了 concepts/ 条目，不需要更新 topics/_index.md）
 
 ## 素材注册表 (raw/_registry.md)
 
