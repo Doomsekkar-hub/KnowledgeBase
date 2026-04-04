@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+.trash/
+
+# Temp
+*.tmp
+*.temp
+*.swp
+*~
+
+# Secrets
+*.private.md
+secrets/
+.env
+
+# Large binaries
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+*.psd
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Exports (regenerable)
+output/exports/
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
