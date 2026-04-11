@@ -14,6 +14,7 @@ raw/ (人工输入) → LLM 编译 → wiki/ (知识库) → output/ (幻灯片/
 2. 将素材放入 `raw/` 对应子目录
 3. 使用 Claude Code skills 操作知识库：
    - `/ingest` — 导入素材并登记
+   - `/translate` — 翻译英文素材为中文
    - `/compile` — 编译 raw → wiki
    - `/query` — 对 wiki 问答
    - `/lint` — 健康检查
